@@ -1,0 +1,195 @@
+body{
+	background-color: #2d3645;
+	color: white;
+	font-size: 16px;
+	font-family: monospace;
+	}
+
+hr{
+	width: 92%;
+}
+table{
+	width: 80%;
+}
+img{
+	z-index: 20;
+}
+input{
+	width: 100%;
+	margin: 8px 0;
+	background-color: #242640;
+	box-sizing: border-box;
+	color: white;
+	border-color: white;
+	padding: 5px 10px;
+	border-radius: 15px;
+	transition-duration: 0.3s;
+}
+input[type=submit]{
+	color: white;
+	font-size: 14px;
+	font-family: monospace;
+	cursor: pointer;
+}
+input[type=text]{
+	height: 50px;
+}
+input[type=number]{
+	position: relative;
+	width: 50%;
+}
+input:hover{
+	border-radius: 5px;
+}
+textarea{
+	width: 100%;
+	margin: 8px 0;
+	background-color: #242640;
+	box-sizing: border-box;
+	color: white;
+	border-color: white;
+	padding: 5px 10px;
+	border-radius: 15px;
+	resize: none;
+	transition-duration: 0.3s;
+}
+textarea:hover{
+	border-radius: 5px;
+}
+
+.square{
+  	width: 100%;
+  	border-radius: 7px;
+  	background-color: #1d222b;
+  	
+  	position: sticky;
+  	top: 10px;
+	}
+
+.link{
+	color: white;
+	text-decoration: none;
+}
+
+.row_product{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	}
+.row_bar{
+	display: grid;
+	grid-template-columns: 4fr 4fr;
+}
+
+.task_col{
+	padding: 8px 2px;
+}
+
+.col{
+    padding: 8px 2px;
+    }
+
+button {
+	border: none;
+	color: white;
+	background-color: #6ba340;
+	padding: 15px 32px;
+	text-align: center;
+	font-family: monospace;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 20px;
+	transition-duration: 0.3s;
+	}	
+button:hover{
+		background-color: #4e782f;
+		border-radius: 10px;
+	}
+.button_home{
+	float: left;
+
+	position: relative;
+	left: 3px;
+}
+.button_about{
+	margin-left: 10px;
+}
+.button_order{
+	float: inline-start;
+	position: sticky;
+}
+.button_check_out{
+	float: right;
+
+	position: relative;
+	right: 3px;
+
+}
+
+/*product Box*/
+				.product_box{
+					width: 90%;
+				  	height: 100%;
+				  	border-radius: 10px;
+				  	background-color: #1d222b;
+				  	transition-duration: 0.3s;
+				}
+				.product_box:hover{
+					border-radius: 3%;
+					background-color: #242640;
+				}
+				.box_img{
+					border-radius: 10px;
+					width: 90%;
+					margin-top: 20px;
+					transition-duration: 0.3s;
+				}
+				.box_img:hover{
+					border-radius: 3px;
+				}
+				.box_text{
+					font-size: 20px;
+					margin: 20px;
+				}
+
+.log-in_box{
+  	border-radius: 10px;
+  	background-color: #1d222b;
+	margin-top: 65px;
+  	width: 35%;
+	}
+
+.order_box{
+	border-radius: 10px;
+  	background-color: #1d222b;
+	margin-top: 65px;
+  	width: 60%;
+}
+
+.container{
+	position: relative;
+}
+
+/* Search Box */
+
+.scb{
+	overflow: hidden;
+	background-color: #222a38;
+	border: none;
+	border-color: #222a38;
+	border-radius: 15px;
+	height: 40px;
+	width: 500px;
+	color: white;
+	
+	position: relative;
+	top: 7px;
+
+	text-decoration: none;
+
+	font-size: 17px;
+}
+.scb:hover{
+	background-color: #283140;
+}
